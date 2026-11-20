@@ -30,6 +30,15 @@
       text-align: center;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #32323a;
+      margin: 0 auto 16px auto;
+      display: block;
+    }
     .badge {
       display: inline-block;
       background: #25252c;
@@ -39,7 +48,7 @@
       text-transform: uppercase;
       padding: 6px 12px;
       border-radius: 999px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
     h1 {
       font-size: 28px;
@@ -86,6 +95,7 @@
 </head>
 <body>
   <div class="card">
+    <img src="logo.png" onerror="this.onerror=null; this.src='logo.jpg';" alt="Created by Zua Logo" class="logo" />
     <span class="badge">Official Portfolio</span>
     <h1>Created by Zua</h1>
     <p>Welcome to my creative space. Full portfolio and new projects launching soon.</p>
